@@ -1,11 +1,11 @@
 emailjs.init({
-    publicKey: "J4U3x9-cPEIKUUWxC"
+    publicKey: "G8gBWZBi-S__zmyJe"
 })
 
 console.log(window.innerWidth);
 
-const serviceId = 'service_k358frm';
-const templateId = 'template_k6qb997';
+const serviceId = 'service_r1fvkmk';
+const templateId = 'template_tekd8v9';
 
 
 const contactForm = document.querySelector('#contact-form');
