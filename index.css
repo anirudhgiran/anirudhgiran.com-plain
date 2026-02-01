@@ -7,6 +7,11 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'NewYork';
+  src: url('./static/fonts/NewYork.otf');
+}
+
 *::selection {
   background-color: var(--color-primary);
   color: var(--font-color-secondary);
