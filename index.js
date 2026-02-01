@@ -19,7 +19,7 @@ contactForm.addEventListener('submit', (e) => {
     let fromMsg = contactForm['message'];
 
     let templateParams = {
-        title: `New message recieved from ${fromName}`,
+        title: `New message recieved from ${fromName.value}`,
         name: fromName.value,
         email: fromEmail.value,
         message: fromMsg.value,
